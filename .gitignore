@@ -1,0 +1,20 @@
+# Logs and output files
+*.log
+update_output.log
+brew_conda_update.log
+
+# Session and status files  
+CURRENT_STATUS.md
+postcomp-prompt.md
+COMPREHENSIVE_TODO_LIST.md
+emergency-state.md
+
+# Export files
+exports/
+
+# macOS system files
+.DS_Store
+
+# Backup files
+*.bak
+*~
