@@ -37,11 +37,13 @@ An elegant, comprehensive system update script for macOS that keeps all your dev
 - [Conda](https://docs.conda.io/en/latest/miniconda.html) (Anaconda/Miniconda)
 
 ### Optional (will be skipped if not installed)
-- [Oh My Zsh](https://ohmyz.sh)
-- [Mac App Store CLI (mas)](https://github.com/mas-cli/mas)
-- [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm)
-- [UV Python Package Manager](https://github.com/astral-sh/uv)
-- [Node Package Manager (npm)](https://nodejs.org)
+- [Oh My Zsh](https://ohmyz.sh) - Shell framework updates
+- [Mac App Store CLI (mas)](https://github.com/mas-cli/mas) - `brew install mas` for App Store updates
+- [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm) - Node.js version management
+- [UV Python Package Manager](https://github.com/astral-sh/uv) - Modern Python package manager
+- [Node Package Manager (npm)](https://nodejs.org) - Global package updates
+
+💡 **Smart Skipping**: The script automatically detects which tools are installed and gracefully skips missing ones with clear status messages.
 
 ## 🚀 Installation
 
@@ -215,34 +217,8 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](#license) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📝 Author
 
 Created by Chris Norris
-
----
-
-## License
-
-MIT License
-
-Copyright (c) 2024 Chris Norris
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
